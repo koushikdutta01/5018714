@@ -1,0 +1,17 @@
+Q Explain Big O notation and how it helps in analyzing algorithms ?
+Big O notation is a way to describe the performance or complexity of an algorithm. It specifically describes the worst-case scenario and helps to understand the upper limits of algorithm performance.
+Common Big O notations include O(1), O(log n), O(n), O(n log n), and O(n^2).
+
+Q Describe the best, average, and worst-case scenarios for search operations ?
+Best Case: The minimum time required for an algorithm to complete.
+Average Case: The expected time for an algorithm to complete, considering all possible inputs.
+Worst Case: The maximum time required for an algorithm to complete, ensuring that the algorithm will not take longer than this time.
+
+Q Analysis -
+Time Complexity Comparison
+Linear Search -  O(n)
+Binary Search -  O(log n)
+
+Q Algorithm Suitability
+Binary search is more efficient for large datasets but requires the data to be sorted. Linear search is simpler but less efficient for large datasets.
+

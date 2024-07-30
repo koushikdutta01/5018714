@@ -1,0 +1,27 @@
+Q Explain different sorting algorithms (Bubble Sort, Insertion Sort, Quick Sort, Merge Sort)?
+Bubble Sort:
+Simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
+Time Complexity: O(n^2)
+
+Insertion Sort:
+Builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
+Time Complexity: O(n^2)
+
+Quick Sort:
+An efficient, in-place sorting algorithm that in practice is faster than its competitors, despite having the same O(n log n) average time complexity.
+Time Complexity: O(n log n) on average
+
+Merge Sort:
+An efficient, stable, comparison-based, divide and conquer sorting algorithm. Most implementations produce a stable sort, meaning that the implementation preserves the input order of equal elements in the sorted output.
+Time Complexity: O(n log n)
+
+Q Analysis and Comparison of Time Complexity of Bubble Sort and Quick Sort
+Bubble Sort:
+- Average Case - (O(n^2))  
+- Worst Case - (O(n^2))  
+
+Quick Sort: 
+- Average Case - (O(n log n))  
+- Worst Case - (O(n^2))  
+
+Quick Sort is generally preferred due to its faster average-case performance and better practical efficiency.

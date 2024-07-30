@@ -1,0 +1,18 @@
+Q Explain how arrays are represented in memory and their advantages ?
+Arrays are contiguous blocks of memory where each element can be accessed using its index.
+They provide fast access to elements since the index can be calculated directly.
+
+Advantages:
+Fast Access: O(1) time complexity for accessing elements by index.
+Memory Efficiency: Fixed size, allocated at creation.
+
+Q Analyze the time complexity of each operation (add, search, traverse, delete)?
+Time Complexity of Operations:
+- Add: O(1) if adding at the end, O(n) if resizing is needed.
+- Search: O(n) in the worst case.
+- Traverse: O(n).
+- Delete: O(n) due to shifting elements.
+
+Q Discuss the limitations of arrays and when to use them?
+- Fixed size can lead to wasted memory or insufficient space.
+- Costly operations for insertion and deletion.

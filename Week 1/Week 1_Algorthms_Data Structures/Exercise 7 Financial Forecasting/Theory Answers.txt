@@ -1,0 +1,10 @@
+Q Explain the concept of recursion and how it can simplify certain problems?
+A technique where a function calls itself in order to solve smaller instances of the same problem. Simplifies the code for problems that have a natural recursive structure. But can lead to excessive computation and stack overflow if not managed properly.
+
+Q Discuss the time complexity of your recursive algorithm?
+The time Complexity of the recursive algorithm is O(n), where n is the number of years.
+Each recursive call processes one year, making the complexity linear
+
+Q Explain how to optimize the recursive solution to avoid excessive computation?
+To avoid excessive computation and redundant calculations, consider using memoization. Store results
+of sub-problems to avoid recalculating them multiple times, improving efficiency.

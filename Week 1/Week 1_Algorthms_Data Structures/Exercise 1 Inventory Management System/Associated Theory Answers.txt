@@ -1,0 +1,23 @@
+Why Data Structures and Algorithms are Essential ?
+Data structures and algorithms play a very important role in handling large inventories because they determine the efficiency of data storage, retrieval, and manipulation. Efficient data structures allow for quick access to inventory items, fast updates, and effective management of space. Algorithms ensure that operations such as searching for a product, updating its quantity, or removing it from the inventory are performed optimally, reducing the time complexity and improving the overall performance of the system.
+
+Types of Data Structures Suitable for Inventory Management 
+•	ArrayList - Applicable for cases where you need to access elements by their index which is very quick. Though, insertion and deletion operations can be costly if not done at the end of the list.
+
+•	HashMap - Ideal for cases where fast access, insertion, and deletion by unique keys (like product IDs) are required. HashMap provides average O(1) time complexity for these operations.
+
+•	LinkedList - ideal for cases where frequent insertions and deletions at various positions are needed. However, it provides O(n) time complexity for search operations.
+
+Time Complexity Analysis:
+
+Add Product:
+•	HashMap  - O(1) average time complexity. The product is added with a unique key, allowing constant time insertion.
+
+Update Product:
+•	HashMap - O(1) average time complexity. The product is accessed directly using the key and updated in constant time.
+
+Delete Product:
+•	HashMap  - O(1) average time complexity. The product is accessed and deleted directly using the key, allowing constant time deletion.
+
+Optimization of These Operations :
+Efficient Key Management - Ensure that product IDs are unique and well-distributed to avoid hash collisions, which could degrade performance.
